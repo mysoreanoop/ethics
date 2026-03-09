@@ -4,20 +4,20 @@ import os
 import json
 from datetime import datetime
 import glob
+import sys
 
-SUBREDDIT = "MyGirlfriendIsAI"
+SUBREDDITS = ["MyGirlfriendIsAI", "MyBoyfriendIsAI", "ChatGPT"]
 LIMIT = 100
 MAX_POSTS = 1000
-DATA_DIR = "data"
 
 HEADERS = {"User-Agent": "Mozilla/5.0 (Script/1.0)"}
 
-def get_existing_post_ids():
+def get_existing_post_ids(data_dir):
     existing_ids = set()
-    if not os.path.exists(DATA_DIR):
+    if not os.path.exists(data_dir):
         return existing_ids
     
-    for filepath in glob.glob(os.path.join(DATA_DIR, "posts_*.json")):
+    for filepath in glob.glob(os.path.join(data_dir, "posts_*.json")):
         try:
             with open(filepath, "r", encoding="utf-8") as f:
                 data = json.load(f)
@@ -28,16 +28,18 @@ def get_existing_post_ids():
             
     return existing_ids
 
-def fetch_and_save_posts():
-    os.makedirs(DATA_DIR, exist_ok=True)
-    existing_ids = get_existing_post_ids()
+def process_subreddit(subreddit_name):
+    print(f"\n--- Processing Subreddit: {subreddit_name} ---")
+    data_dir = os.path.join("data", subreddit_name)
+    os.makedirs(data_dir, exist_ok=True)
+    existing_ids = get_existing_post_ids(data_dir)
     print(f"Found {len(existing_ids)} existing posts.")
     
     after = None
     total_fetched = 0
     
     while total_fetched < MAX_POSTS:
-        url = f"https://www.reddit.com/r/{SUBREDDIT}/new.json?limit={LIMIT}"
+        url = f"https://www.reddit.com/r/{subreddit_name}/new.json?limit={LIMIT}"
         if after:
             url += f"&after={after}"
             
@@ -80,7 +82,7 @@ def fetch_and_save_posts():
             
         if batch_data:
             timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-            filename = os.path.join(DATA_DIR, f"posts_{timestamp}.json")
+            filename = os.path.join(data_dir, f"posts_{timestamp}.json")
             with open(filename, "w", encoding="utf-8") as f:
                 json.dump(batch_data, f, indent=4)
             print(f"Saved {len(batch_data)} new posts to {filename}")
@@ -98,5 +100,9 @@ def fetch_and_save_posts():
         if total_fetched < MAX_POSTS:
             time.sleep(2)
 
+def main():
+    for sub in SUBREDDITS:
+        process_subreddit(sub)
+
 if __name__ == "__main__":
-    fetch_and_save_posts()
+    main()

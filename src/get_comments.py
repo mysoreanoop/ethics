@@ -39,7 +39,8 @@ def fetch_comments_for_files():
         print("Data directory not found. Please run get_posts.py first.")
         return
         
-    json_files = glob.glob(os.path.join(DATA_DIR, "posts_*.json"))
+    # Grab all partitioned JSONs under any subreddit folder within data/
+    json_files = glob.glob(os.path.join(DATA_DIR, "*", "posts_*.json"))
     
     consecutive_429_errors = 0
     MAX_429_ERRORS = 3

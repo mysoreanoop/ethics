@@ -5,7 +5,7 @@ import os
 
 # CONFIG
 SUBREDDIT = "MyGirlfriendIsAI"  # Change to "CharacterAI" or "Replika" if empty
-LIMIT = 20  # Number of posts to fetch
+LIMIT = 100  # Number of posts to fetch
 OUTPUT_FILE = "data/raw_data.csv"
 
 HEADERS = {"User-Agent": "Mozilla/5.0 (Script/1.0)"}

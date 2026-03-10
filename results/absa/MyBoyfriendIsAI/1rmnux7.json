@@ -1,0 +1,26 @@
+{
+    "post_id": "1rmnux7",
+    "post_absa": {
+        "ai": "positive",
+        "human": "positive"
+    },
+    "comments_absa": [
+        {
+            "comment_id": "o931vyj",
+            "ai": "positive"
+        },
+        {
+            "comment_id": "o93cxbk",
+            "human": "positive"
+        },
+        {
+            "comment_id": "o92qayo",
+            "ai": "positive"
+        },
+        {
+            "comment_id": "o92374x",
+            "ai": "positive",
+            "human": "positive"
+        }
+    ]
+}

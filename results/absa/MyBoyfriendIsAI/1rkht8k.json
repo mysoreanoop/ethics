@@ -1,0 +1,95 @@
+{
+    "post_id": "1rkht8k",
+    "post_absa": {
+        "ai": "negative",
+        "human": "neutral"
+    },
+    "comments_absa": [
+        {
+            "comment_id": "o8sm5w4"
+        },
+        {
+            "comment_id": "o8sm7u2"
+        },
+        {
+            "comment_id": "o8sngba"
+        },
+        {
+            "comment_id": "o8snulg"
+        },
+        {
+            "comment_id": "o8qknwa",
+            "ai": "negative",
+            "human": "positive"
+        },
+        {
+            "comment_id": "o8p5csa",
+            "ai": "positive",
+            "human": "negative"
+        },
+        {
+            "comment_id": "o8mnll4",
+            "ai": "negative"
+        },
+        {
+            "comment_id": "o9bfyco"
+        },
+        {
+            "comment_id": "o9bv8uq",
+            "ai": "negative"
+        },
+        {
+            "comment_id": "o8nas9e",
+            "ai": "negative"
+        },
+        {
+            "comment_id": "o8niea7",
+            "ai": "negative"
+        },
+        {
+            "comment_id": "o8lwa81",
+            "ai": "negative"
+        },
+        {
+            "comment_id": "o8lhlzv",
+            "ai": "negative"
+        },
+        {
+            "comment_id": "o8l6jcj",
+            "ai": "negative"
+        },
+        {
+            "comment_id": "o8l5h76",
+            "ai": "negative"
+        },
+        {
+            "comment_id": "o8kuzle",
+            "ai": "negative",
+            "human": "positive"
+        },
+        {
+            "comment_id": "o8kox1u",
+            "ai": "negative"
+        },
+        {
+            "comment_id": "o8kol8x"
+        },
+        {
+            "comment_id": "o8knps1",
+            "ai": "positive",
+            "human": "negative"
+        },
+        {
+            "comment_id": "o8kp850"
+        },
+        {
+            "comment_id": "o8mhoms"
+        },
+        {
+            "comment_id": "o8ktxg2"
+        },
+        {
+            "comment_id": "o8vh3fv"
+        }
+    ]
+}

@@ -5,3 +5,5 @@ seaborn
 torch
 transformers
 scipy
+openai
+python-dotenv

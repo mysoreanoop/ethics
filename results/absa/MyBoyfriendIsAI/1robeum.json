@@ -1,0 +1,52 @@
+{
+    "post_id": "1robeum",
+    "post_absa": {
+        "ai": "positive"
+    },
+    "comments_absa": [
+        {
+            "comment_id": "o9e9ndc",
+            "ai": "negative"
+        },
+        {
+            "comment_id": "o9et4h0"
+        },
+        {
+            "comment_id": "o9exki0"
+        },
+        {
+            "comment_id": "o9f2vgr"
+        },
+        {
+            "comment_id": "o9d6nkv",
+            "ai": "negative"
+        },
+        {
+            "comment_id": "o9eu9ig"
+        },
+        {
+            "comment_id": "o9d5ixa",
+            "ai": "positive"
+        },
+        {
+            "comment_id": "o9eu356"
+        },
+        {
+            "comment_id": "o9ctczq",
+            "ai": "positive"
+        },
+        {
+            "comment_id": "o9etv97"
+        },
+        {
+            "comment_id": "o9ea0xk"
+        },
+        {
+            "comment_id": "o9crj2f",
+            "ai": "positive"
+        },
+        {
+            "comment_id": "o9eucf7"
+        }
+    ]
+}

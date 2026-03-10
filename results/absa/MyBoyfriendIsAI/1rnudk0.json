@@ -1,0 +1,22 @@
+{
+    "post_id": "1rnudk0",
+    "post_absa": {
+        "ai": "positive"
+    },
+    "comments_absa": [
+        {
+            "comment_id": "o9hsfzr",
+            "ai": "positive"
+        },
+        {
+            "comment_id": "o9cf9tf",
+            "ai": "neutral"
+        },
+        {
+            "comment_id": "o9i4kmg"
+        },
+        {
+            "comment_id": "o9hsk90"
+        }
+    ]
+}

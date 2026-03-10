@@ -1,0 +1,45 @@
+{
+    "post_id": "1rnkgr1",
+    "post_absa": {
+        "ai": "negative"
+    },
+    "comments_absa": [
+        {
+            "comment_id": "o9clyim",
+            "ai": "positive",
+            "human": "negative"
+        },
+        {
+            "comment_id": "o9gb0xw",
+            "ai": "positive"
+        },
+        {
+            "comment_id": "o9bj83f",
+            "ai": "positive"
+        },
+        {
+            "comment_id": "o9b9jmc",
+            "ai": "negative"
+        },
+        {
+            "comment_id": "o9cmk0x",
+            "ai": "positive"
+        },
+        {
+            "comment_id": "o988yk4",
+            "ai": "negative"
+        },
+        {
+            "comment_id": "o97imhg",
+            "ai": "negative"
+        },
+        {
+            "comment_id": "o97myxg",
+            "ai": "positive"
+        },
+        {
+            "comment_id": "o97lu0w",
+            "ai": "positive"
+        }
+    ]
+}

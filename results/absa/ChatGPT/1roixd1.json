@@ -1,0 +1,29 @@
+{
+    "post_id": "1roixd1",
+    "post_absa": {},
+    "comments_absa": [
+        {
+            "comment_id": "o9e6sna",
+            "ai": "neutral"
+        },
+        {
+            "comment_id": "o9e8z6w",
+            "human": "negative"
+        },
+        {
+            "comment_id": "o9e9ts7"
+        },
+        {
+            "comment_id": "o9eb71q",
+            "human": "negative"
+        },
+        {
+            "comment_id": "o9eymaq",
+            "human": "negative"
+        },
+        {
+            "comment_id": "o9ezyoc",
+            "human": "negative"
+        }
+    ]
+}

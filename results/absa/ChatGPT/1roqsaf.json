@@ -1,0 +1,66 @@
+{
+    "post_id": "1roqsaf",
+    "post_absa": {
+        "ai": "positive"
+    },
+    "comments_absa": [
+        {
+            "comment_id": "o9fr2ea"
+        },
+        {
+            "comment_id": "o9g3yi1",
+            "ai": "positive"
+        },
+        {
+            "comment_id": "o9g6uba",
+            "ai": "positive"
+        },
+        {
+            "comment_id": "o9g4uls",
+            "ai": "positive"
+        },
+        {
+            "comment_id": "o9ftwld",
+            "ai": "neutral"
+        },
+        {
+            "comment_id": "o9fsikv",
+            "ai": "neutral"
+        },
+        {
+            "comment_id": "o9fstno",
+            "ai": "negative"
+        },
+        {
+            "comment_id": "o9fxz6b",
+            "ai": "positive"
+        },
+        {
+            "comment_id": "o9h22ro",
+            "ai": "neutral"
+        },
+        {
+            "comment_id": "o9h83r5"
+        },
+        {
+            "comment_id": "o9fte2f",
+            "ai": "negative"
+        },
+        {
+            "comment_id": "o9fujv1",
+            "ai": "negative"
+        },
+        {
+            "comment_id": "o9gdigd"
+        },
+        {
+            "comment_id": "o9geqh3"
+        },
+        {
+            "comment_id": "o9gew1m"
+        },
+        {
+            "comment_id": "o9gf2qa"
+        }
+    ]
+}

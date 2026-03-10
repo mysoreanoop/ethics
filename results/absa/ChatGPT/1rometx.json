@@ -1,0 +1,64 @@
+{
+    "post_id": "1rometx",
+    "post_absa": {
+        "ai": "negative"
+    },
+    "comments_absa": [
+        {
+            "comment_id": "o9ew9n3"
+        },
+        {
+            "comment_id": "o9ex8f5",
+            "human": "negative"
+        },
+        {
+            "comment_id": "o9fdknd"
+        },
+        {
+            "comment_id": "o9f8xtl",
+            "human": "negative"
+        },
+        {
+            "comment_id": "o9f3dbc",
+            "ai": "neutral"
+        },
+        {
+            "comment_id": "o9f4fdh",
+            "human": "negative"
+        },
+        {
+            "comment_id": "o9f7fz0"
+        },
+        {
+            "comment_id": "o9fay1c",
+            "human": "negative"
+        },
+        {
+            "comment_id": "o9fb21z"
+        },
+        {
+            "comment_id": "o9fevgv",
+            "human": "negative"
+        },
+        {
+            "comment_id": "o9ffw79"
+        },
+        {
+            "comment_id": "o9fg7yl"
+        },
+        {
+            "comment_id": "o9f8pbs",
+            "human": "negative"
+        },
+        {
+            "comment_id": "o9fct4q"
+        },
+        {
+            "comment_id": "o9fd6zo",
+            "ai": "positive"
+        },
+        {
+            "comment_id": "o9fehqk"
+        }
+    ]
+}

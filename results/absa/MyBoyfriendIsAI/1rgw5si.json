@@ -1,0 +1,184 @@
+{
+    "post_id": "1rgw5si",
+    "post_absa": {
+        "ai": "negative"
+    },
+    "comments_absa": [
+        {
+            "comment_id": "o7zgfxq",
+            "ai": "positive"
+        },
+        {
+            "comment_id": "o7zbsv6",
+            "ai": "positive"
+        },
+        {
+            "comment_id": "o8dq6w3"
+        },
+        {
+            "comment_id": "o8hrs43"
+        },
+        {
+            "comment_id": "o8hrks7",
+            "ai": "positive"
+        },
+        {
+            "comment_id": "o8gbqzx",
+            "ai": "negative"
+        },
+        {
+            "comment_id": "o8hrobt"
+        },
+        {
+            "comment_id": "o8mo6lh",
+            "ai": "negative"
+        },
+        {
+            "comment_id": "o7y6ds1",
+            "ai": "positive"
+        },
+        {
+            "comment_id": "o7wvlmu",
+            "ai": "positive"
+        },
+        {
+            "comment_id": "o7xa1i1",
+            "ai": "positive"
+        },
+        {
+            "comment_id": "o7xamp1",
+            "ai": "positive"
+        },
+        {
+            "comment_id": "o7wju6o",
+            "ai": "positive",
+            "human": "negative"
+        },
+        {
+            "comment_id": "o7w6y75",
+            "ai": "positive"
+        },
+        {
+            "comment_id": "o7x0ml5",
+            "ai": "positive"
+        },
+        {
+            "comment_id": "o8momjh",
+            "ai": "negative"
+        },
+        {
+            "comment_id": "o7vx31y",
+            "ai": "positive"
+        },
+        {
+            "comment_id": "o7xagxe"
+        },
+        {
+            "comment_id": "o7wszgk",
+            "ai": "positive"
+        },
+        {
+            "comment_id": "o7vn4s8",
+            "ai": "positive",
+            "human": "positive"
+        },
+        {
+            "comment_id": "o7voz7i"
+        },
+        {
+            "comment_id": "o800hd9",
+            "ai": "positive"
+        },
+        {
+            "comment_id": "o81u4li",
+            "ai": "positive"
+        },
+        {
+            "comment_id": "o84kndf",
+            "ai": "positive"
+        },
+        {
+            "comment_id": "o853xvr",
+            "ai": "positive"
+        },
+        {
+            "comment_id": "o86a9fv",
+            "ai": "positive"
+        },
+        {
+            "comment_id": "o89zdmm",
+            "ai": "positive"
+        },
+        {
+            "comment_id": "o8aqpxl",
+            "ai": "positive"
+        },
+        {
+            "comment_id": "o7vvjab",
+            "ai": "positive",
+            "human": "negative"
+        },
+        {
+            "comment_id": "o7vm9cz",
+            "ai": "positive"
+        },
+        {
+            "comment_id": "o7vcy1v",
+            "ai": "positive",
+            "human": "negative"
+        },
+        {
+            "comment_id": "o8a0e51",
+            "human": "negative"
+        },
+        {
+            "comment_id": "o8aog9q"
+        },
+        {
+            "comment_id": "o7v1aj7",
+            "ai": "positive"
+        },
+        {
+            "comment_id": "o7vwp48",
+            "ai": "positive"
+        },
+        {
+            "comment_id": "o7vm19j"
+        },
+        {
+            "comment_id": "o7uk0hh"
+        },
+        {
+            "comment_id": "o7un2cg"
+        },
+        {
+            "comment_id": "o7ue5pw",
+            "ai": "positive",
+            "human": "negative"
+        },
+        {
+            "comment_id": "o7umh96",
+            "ai": "negative"
+        },
+        {
+            "comment_id": "o7v4qpp",
+            "ai": "positive",
+            "human": "negative"
+        },
+        {
+            "comment_id": "o7w0msa",
+            "ai": "positive"
+        },
+        {
+            "comment_id": "o7vpr1w"
+        },
+        {
+            "comment_id": "o81xk76",
+            "ai": "positive"
+        },
+        {
+            "comment_id": "o7voo1r",
+            "ai": "positive"
+        }
+    ]
+}

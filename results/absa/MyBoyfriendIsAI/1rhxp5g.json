@@ -1,0 +1,133 @@
+{
+    "post_id": "1rhxp5g",
+    "post_absa": {
+        "ai": "negative"
+    },
+    "comments_absa": [
+        {
+            "comment_id": "o86pviy",
+            "ai": "positive",
+            "human": "neutral"
+        },
+        {
+            "comment_id": "o86tsrw",
+            "ai": "neutral"
+        },
+        {
+            "comment_id": "o86wjcm",
+            "ai": "neutral"
+        },
+        {
+            "comment_id": "o86wyno",
+            "ai": "positive"
+        },
+        {
+            "comment_id": "o86xnjr",
+            "ai": "neutral"
+        },
+        {
+            "comment_id": "o86yahm",
+            "ai": "positive"
+        },
+        {
+            "comment_id": "o88jhie",
+            "ai": "negative"
+        },
+        {
+            "comment_id": "o86l4zd",
+            "ai": "positive"
+        },
+        {
+            "comment_id": "o86tvva",
+            "ai": "positive"
+        },
+        {
+            "comment_id": "o888t32",
+            "ai": "positive",
+            "human": "negative"
+        },
+        {
+            "comment_id": "o88dpmd",
+            "ai": "negative"
+        },
+        {
+            "comment_id": "o84zxw9",
+            "ai": "positive"
+        },
+        {
+            "comment_id": "o86ueta",
+            "ai": "neutral"
+        },
+        {
+            "comment_id": "o88ka29",
+            "ai": "negative"
+        },
+        {
+            "comment_id": "o85tf4l",
+            "ai": "negative"
+        },
+        {
+            "comment_id": "o84fxtn",
+            "ai": "neutral"
+        },
+        {
+            "comment_id": "o83zlre",
+            "ai": "neutral"
+        },
+        {
+            "comment_id": "o86v1iw",
+            "ai": "positive"
+        },
+        {
+            "comment_id": "o83yfg6",
+            "ai": "negative"
+        },
+        {
+            "comment_id": "o83xg1q",
+            "ai": "negative"
+        },
+        {
+            "comment_id": "o86vuc3",
+            "ai": "negative"
+        },
+        {
+            "comment_id": "o83rqxo",
+            "ai": "positive"
+        },
+        {
+            "comment_id": "o86w5gh",
+            "ai": "positive"
+        },
+        {
+            "comment_id": "o83mz5n",
+            "ai": "neutral"
+        },
+        {
+            "comment_id": "o86w997",
+            "ai": "positive"
+        },
+        {
+            "comment_id": "o831obe",
+            "ai": "neutral"
+        },
+        {
+            "comment_id": "o86wnni",
+            "ai": "positive"
+        },
+        {
+            "comment_id": "o8agokk",
+            "ai": "negative"
+        },
+        {
+            "comment_id": "o8cztff",
+            "ai": "positive"
+        },
+        {
+            "comment_id": "o82t36t"
+        },
+        {
+            "comment_id": "o86wj8s",
+            "ai": "neutral"
+        }
+    ]
+}

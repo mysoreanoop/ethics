@@ -1,0 +1,90 @@
+{
+    "post_id": "1rfqavw",
+    "post_absa": {
+        "ai": "positive",
+        "human": "neutral"
+    },
+    "comments_absa": [
+        {
+            "comment_id": "o7zzaei",
+            "human": "negative"
+        },
+        {
+            "comment_id": "o7pxuye",
+            "human": "positive"
+        },
+        {
+            "comment_id": "o7ny4jc",
+            "ai": "positive",
+            "human": "neutral"
+        },
+        {
+            "comment_id": "o7nwzuw",
+            "ai": "positive",
+            "human": "positive"
+        },
+        {
+            "comment_id": "o7nnpgn",
+            "ai": "positive",
+            "human": "positive"
+        },
+        {
+            "comment_id": "o7mof97"
+        },
+        {
+            "comment_id": "o7mn7f5",
+            "ai": "positive",
+            "human": "negative"
+        },
+        {
+            "comment_id": "o7mkj0r",
+            "ai": "positive",
+            "human": "positive"
+        },
+        {
+            "comment_id": "o7miw9h",
+            "ai": "positive",
+            "human": "positive"
+        },
+        {
+            "comment_id": "o7mhz36",
+            "ai": "positive",
+            "human": "neutral"
+        },
+        {
+            "comment_id": "o7mdmp0"
+        },
+        {
+            "comment_id": "o7m82tg",
+            "ai": "positive",
+            "human": "positive"
+        },
+        {
+            "comment_id": "o7m2j1j",
+            "ai": "positive",
+            "human": "neutral"
+        },
+        {
+            "comment_id": "o7m90gw",
+            "human": "negative"
+        },
+        {
+            "comment_id": "o7mrjbg",
+            "human": "positive"
+        },
+        {
+            "comment_id": "o7m0ioj",
+            "ai": "positive",
+            "human": "positive"
+        },
+        {
+            "comment_id": "o7lx1ye",
+            "human": "neutral"
+        },
+        {
+            "comment_id": "o7lx0l4",
+            "ai": "positive",
+            "human": "negative"
+        }
+    ]
+}

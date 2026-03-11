@@ -11,25 +11,10 @@
 #SBATCH --output=slurm-%x_%j.out
 #SBATCH --error=slurm-%x_%j.err
 
-set -euo pipefail
-
-# Start from the directory where sbatch was invoked.
-cd "${SLURM_SUBMIT_DIR}"
-
-mkdir -p results/nlu/figures
-
-. ~/.bashrc
-conda activate ethics
-
-# Per-node threading controls.
-export OMP_NUM_THREADS=16
-export MKL_NUM_THREADS=16
-export OPENBLAS_NUM_THREADS=16
-export NUMEXPR_NUM_THREADS=16
-export TOKENIZERS_PARALLELISM=false
+conda activate baselines
 
 # Optional: set a persistent HF cache location on cluster storage.
-# export HF_HOME=/gscratch/krishna/${USER}/.cache/huggingface
+# export HF_HOME=/gscratch/kevin/.cache/huggingface
 
 echo "[SLURM] Host: $(hostname)"
 echo "[SLURM] Working dir: $(pwd)"

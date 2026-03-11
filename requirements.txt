@@ -7,3 +7,9 @@ transformers
 scipy
 openai
 python-dotenv
+numpy
+scikit-learn
+sentence-transformers
+bertopic
+umap-learn
+hdbscan

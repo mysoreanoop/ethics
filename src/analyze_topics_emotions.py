@@ -10,7 +10,9 @@ from typing import Dict, Iterable, List, Optional, Tuple
 import numpy as np
 import pandas as pd
 from bertopic import BERTopic
+from hdbscan import HDBSCAN
 from sklearn.feature_extraction.text import CountVectorizer
+import torch
 from transformers import pipeline
 
 
@@ -21,7 +23,8 @@ OUTPUT_ROOT = Path("results/nlu")
 
 GOEMOTIONS_MODEL = "SamLowe/roberta-base-go_emotions"
 TEXT_MAX_CHARS = 1200
-BATCH_SIZE = 16
+BATCH_SIZE = 64
+TARGET_NUM_TOPICS = 20
 
 NOISE_TERMS = {
     "amp",
@@ -176,21 +179,26 @@ def clean_topic_text(text: str) -> str:
 
 
 def run_goemotions(df: pd.DataFrame) -> pd.DataFrame:
+    device = 0 if torch.cuda.is_available() else -1
     classifier = pipeline(
         "text-classification",
         model=GOEMOTIONS_MODEL,
         top_k=None,
         truncation=True,
         batch_size=BATCH_SIZE,
+        device=device,
     )
 
-    predictions = classifier(df["text_for_model"].tolist())
+    unique_texts = pd.unique(df["text_for_model"])
+    unique_predictions = classifier(unique_texts.tolist())
+    prediction_lookup = dict(zip(unique_texts.tolist(), unique_predictions))
 
     emotion_rows: List[Dict[str, float]] = []
     top_emotions: List[str] = []
     top_scores: List[float] = []
 
-    for pred in predictions:
+    for text in df["text_for_model"]:
+        pred = prediction_lookup[text]
         score_map = {item["label"]: float(item["score"]) for item in pred}
         emotion_rows.append(score_map)
 
@@ -213,16 +221,27 @@ def run_bertopic(df: pd.DataFrame) -> Tuple[pd.DataFrame, BERTopic]:
         token_pattern=r"(?u)\b[a-z][a-z]+\b",
     )
 
+    # Lower strictness to reduce the number of -1 outliers while keeping coherence.
+    hdbscan_model = HDBSCAN(
+        min_cluster_size=6,
+        min_samples=2,
+        cluster_selection_method="eom",
+        prediction_data=True,
+    )
+
     topic_model = BERTopic(
         embedding_model="all-MiniLM-L6-v2",
         vectorizer_model=vectorizer_model,
-        calculate_probabilities=True,
-        min_topic_size=10,
+        hdbscan_model=hdbscan_model,
+        calculate_probabilities=False,
+        low_memory=True,
+        min_topic_size=6,
+        nr_topics=TARGET_NUM_TOPICS,
         verbose=True,
     )
 
     texts = df["text_for_topic"].tolist()
-    topics, probs = topic_model.fit_transform(texts)
+    topics, _ = topic_model.fit_transform(texts)
 
     out_df = df.copy()
     out_df["topic_id"] = topics
@@ -230,17 +249,7 @@ def run_bertopic(df: pd.DataFrame) -> Tuple[pd.DataFrame, BERTopic]:
     topic_label_map = build_readable_topic_labels(topic_model)
     out_df["topic_label"] = out_df["topic_id"].map(topic_label_map).fillna("Unknown")
 
-    topic_prob: List[float] = []
-    if probs is not None:
-        for i, topic_id in enumerate(topics):
-            if topic_id == -1:
-                topic_prob.append(float(np.max(probs[i])))
-            else:
-                topic_prob.append(float(np.max(probs[i])))
-    else:
-        topic_prob = [np.nan] * len(topics)
-
-    out_df["topic_probability"] = topic_prob
+    out_df["topic_probability"] = np.nan
     return out_df, topic_model
 
 

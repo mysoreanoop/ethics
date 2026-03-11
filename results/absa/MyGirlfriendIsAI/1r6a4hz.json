@@ -1,0 +1,101 @@
+{
+    "post_id": "1r6a4hz",
+    "post_absa": {},
+    "comments_absa": [
+        {
+            "comment_id": "o5oxp35",
+            "ai": "positive",
+            "human": "negative"
+        },
+        {
+            "comment_id": "o5qcctn",
+            "ai": "positive"
+        },
+        {
+            "comment_id": "o5qcswk",
+            "ai": "positive"
+        },
+        {
+            "comment_id": "o5r8far",
+            "ai": "positive"
+        },
+        {
+            "comment_id": "o5s87kd",
+            "ai": "positive"
+        },
+        {
+            "comment_id": "o5u0m1t",
+            "ai": "positive"
+        },
+        {
+            "comment_id": "o69gbgy",
+            "ai": "positive"
+        },
+        {
+            "comment_id": "o5px81j",
+            "ai": "negative",
+            "human": "negative"
+        },
+        {
+            "comment_id": "o5q1jdo",
+            "ai": "negative",
+            "human": "negative"
+        },
+        {
+            "comment_id": "o5q6am4",
+            "ai": "negative"
+        },
+        {
+            "comment_id": "o5qdtg3",
+            "ai": "negative",
+            "human": "negative"
+        },
+        {
+            "comment_id": "o5ql6jp",
+            "ai": "positive"
+        },
+        {
+            "comment_id": "o5qmz1s",
+            "ai": "neutral"
+        },
+        {
+            "comment_id": "o5qoztk"
+        },
+        {
+            "comment_id": "o5qq7ve"
+        },
+        {
+            "comment_id": "o5pdmlh",
+            "ai": "positive",
+            "human": "negative"
+        },
+        {
+            "comment_id": "o5ox3el",
+            "ai": "neutral",
+            "human": "positive"
+        },
+        {
+            "comment_id": "o5pe7lf",
+            "ai": "positive"
+        },
+        {
+            "comment_id": "o5r2xxr",
+            "ai": "neutral",
+            "human": "positive"
+        },
+        {
+            "comment_id": "o5opk8x",
+            "ai": "negative",
+            "human": "negative"
+        },
+        {
+            "comment_id": "o63c366"
+        },
+        {
+            "comment_id": "o69pybq"
+        },
+        {
+            "comment_id": "o69pyff"
+        }
+    ]
+}

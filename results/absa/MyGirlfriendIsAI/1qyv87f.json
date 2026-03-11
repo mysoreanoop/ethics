@@ -1,0 +1,31 @@
+{
+    "post_id": "1qyv87f",
+    "post_absa": {
+        "ai": "positive"
+    },
+    "comments_absa": [
+        {
+            "comment_id": "o474k8g"
+        },
+        {
+            "comment_id": "o4j6kjy",
+            "ai": "negative"
+        },
+        {
+            "comment_id": "o4lf49t"
+        },
+        {
+            "comment_id": "o4lncs7"
+        },
+        {
+            "comment_id": "o4olx67"
+        },
+        {
+            "comment_id": "o4artyj"
+        },
+        {
+            "comment_id": "o6eyq4h",
+            "ai": "positive"
+        }
+    ]
+}

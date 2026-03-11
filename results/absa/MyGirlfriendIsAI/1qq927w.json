@@ -1,0 +1,36 @@
+{
+    "post_id": "1qq927w",
+    "post_absa": {
+        "ai": "positive"
+    },
+    "comments_absa": [
+        {
+            "comment_id": "o2f4tkq"
+        },
+        {
+            "comment_id": "o2fsxgl",
+            "ai": "positive"
+        },
+        {
+            "comment_id": "o2giy9x"
+        },
+        {
+            "comment_id": "o2gldji",
+            "ai": "positive"
+        },
+        {
+            "comment_id": "o2gmvkm"
+        },
+        {
+            "comment_id": "o4x04z1",
+            "ai": "positive",
+            "human": "positive"
+        },
+        {
+            "comment_id": "o6wh7j0"
+        },
+        {
+            "comment_id": "o6wo9mh"
+        }
+    ]
+}

@@ -24,7 +24,7 @@ MODEL = "gpt-5-mini"
 DATA_DIR = "data"
 RESULTS_DIR = os.path.join("results", "absa")
 
-# Seconds to wait between API calls (25s for safety margin with 3 RPM)
+# Seconds to wait between API calls (30s for safety margin with 3 RPM)
 API_DELAY = 30
 
 SYSTEM_PROMPT = """\

@@ -1,0 +1,27 @@
+{
+    "post_id": "1roctae",
+    "post_absa": {
+        "ai": "negative"
+    },
+    "comments_absa": [
+        {
+            "comment_id": "o9cxmcs"
+        },
+        {
+            "comment_id": "o9d0p9e",
+            "ai": "neutral"
+        },
+        {
+            "comment_id": "o9dckt8",
+            "ai": "neutral"
+        },
+        {
+            "comment_id": "o9dcq0q",
+            "ai": "negative"
+        },
+        {
+            "comment_id": "o9deuyf",
+            "ai": "neutral"
+        }
+    ]
+}
